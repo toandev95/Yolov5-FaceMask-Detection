@@ -1,0 +1,23 @@
+@import "~antd/dist/antd.css";
+
+.ant-spin-nested-loading > div > .ant-spin .ant-spin-text {
+  text-shadow: none;
+}
+
+.container {
+  padding: 24px 0;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper .webcam {
+  display: flex;
+}
+
+.wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
